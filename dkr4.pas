@@ -67,7 +67,7 @@ for i:=-300 to 300 do
 begin
 x1:=i/n;
 y1:= 1 * x1 * x1 * x1 + (-1) * x1 * x1 + (-4) * x1 + 17;
-line(trunc(x0), trunc(y0), trunc(400+x1*n), trunc(400-y1*(n/10)), clRed);
+line(trunc(x0), trunc(y0), trunc(400+x1*n), trunc(400-y1*(n/10)), clBlue);
 if trunc(400+x1*n)=downx then line(trunc(400+x1*n), trunc(400-y1*(n/10)), trunc(downx), 400, clred);
 if (trunc(400+x1*n)=o) and (o<upx) then 
 begin 
